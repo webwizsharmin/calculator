@@ -6,5 +6,51 @@
     <title>calculator</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Simple Calculator</h1>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="results">
+          <div id="realTimeInput"></div>
+          <div id="result">0</div>
+        </div>
+        <div class="numPad">
+          <div class="row">
+            <button class="operators" id="erase">C</button>
+            <button class="operators" id="backspace">&#8592;</button>
+            <button class="operators" id="sqrt">√</button>
+            <button class="operators" id="percent">%</button>
+          </div>
+          <div class="row">
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button class="operators" id="percent">÷</button>
+          </div>
+          <div class="row">
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button class="operators">×</button>
+          </div>
+          <div class="row">
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button class="operators">-</button>
+          </div>
+          <div class="row">
+            <button class="number">0</button>
+            <button class="number">.</button>
+            <button class="operators" id="equal">=</button>
+            <button class="operators">+</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
 </html>
