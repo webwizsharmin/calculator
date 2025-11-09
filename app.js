@@ -41,3 +41,15 @@ equal.addEventListener("click", () => {
     result.textContent = "Error";
   }
 });
+
+// Clear & Backspace
+clear.addEventListener("click", () => {
+  currentInput = "";
+  result.textContent = "0";
+  realTimeInput.textContent = "";
+});
+
+backspace.addEventListener("click", () => {
+  currentInput = currentInput.trim().slice(0, -1);
+  realTimeInput.textContent = currentInput;
+});
