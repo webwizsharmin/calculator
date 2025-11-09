@@ -7,6 +7,6 @@ const equal = document.querySelector("#equal");
 const backspace = document.querySelector("#backspace");
 const clear = document.querySelector("#erase");
 const sqrtBtn = document.querySelector("#sqrt");
-const percentBtn = document.querySelector("#percenBtn");
+const percentBtn = document.querySelector("#percent");
 const realTimeInput = document.querySelector("#realTimeInput");
 const result = document.querySelector("#result");
