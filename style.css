@@ -23,3 +23,16 @@ h1 {
   padding: 10px;
   background-color: #f9f9f9;
 }
+
+.results {
+  height: 100px;
+  background-color: #222;
+  color: #0f0;
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
