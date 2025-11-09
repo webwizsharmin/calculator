@@ -28,3 +28,16 @@ operators.forEach((btn) => {
     realTimeInput.textContent = currentInput;
   });
 });
+
+// Handle Equal
+equal.addEventListener("click", () => {
+  try {
+    // Replace symbol with JS operators
+    let expression = currentInput.replace(/÷/g, "/").replace(/×/g, "*");
+
+    currentResult = eval(expression); // Eval works but be cautions
+    result.textContent = currentResult;
+  } catch {
+    result.textContent = "Error";
+  }
+});
