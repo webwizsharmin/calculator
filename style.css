@@ -69,3 +69,34 @@ h1 {
   border: 1px solid #ccc;
   background-color: #f0f0f0;
 }
+
+.number {
+  background-color: #e0e0e0;
+}
+
+.row button.operators {
+  /* background-color: red; */
+  color: #000;
+  font-weight: bold;
+}
+
+.row button.operators:hover {
+  background-color: red;
+  /* color: #081b31; */
+  color: white;
+  opacity: 0.9;
+}
+
+.row button:hover {
+  opacity: 0.85;
+}
+
+.row button:active {
+  transform: scale(0.95);
+}
+
+button.active {
+  transform: scale(0.95);
+  opacity: 0.7;
+  background-color: #ccc;
+}
