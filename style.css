@@ -31,8 +31,41 @@ h1 {
   font-size: 2.5rem;
   font-family: sans-serif;
   border-radius: 10px;
+  margin: 0.5rem;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+#realTimeInput {
+  font-size: 1rem;
+  color: #aaa;
+}
+
+#result {
+  font-size: 2.5rem;
+  font-weight: bold;
+  overflow-x: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 5px 0;
+}
+
+.row button {
+  flex: 1;
+  height: 60px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
 }
