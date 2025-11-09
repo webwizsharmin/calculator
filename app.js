@@ -10,3 +10,21 @@ const sqrtBtn = document.querySelector("#sqrt");
 const percentBtn = document.querySelector("#percent");
 const realTimeInput = document.querySelector("#realTimeInput");
 const result = document.querySelector("#result");
+
+// Number and operators click handlings with eventListener
+let currentInput = "";
+let currentResult = 0;
+
+number.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    currentInput += btn.textContent;
+    realTimeInput.textContent = currentInput;
+  });
+});
+
+operators.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    currentInput += ` ${btn.textContent} `;
+    realTimeInput.textContent = currentInput;
+  });
+});
